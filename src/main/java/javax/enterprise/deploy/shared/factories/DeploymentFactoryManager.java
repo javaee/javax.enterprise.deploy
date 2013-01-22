@@ -1,7 +1,7 @@
 /*
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
  *
- * Copyright (c) 1997-2010 Oracle and/or its affiliates. All rights reserved.
+ * Copyright (c) 1997-2012 Oracle and/or its affiliates. All rights reserved.
  *
  * The contents of this file are subject to the terms of either the GNU
  * General Public License Version 2 only ("GPL") or the Common Development
@@ -82,7 +82,7 @@ public final class DeploymentFactoryManager {
     private Vector deploymentFactories = null;
     
     // Singleton instance
-    private static DeploymentFactoryManager deploymentFactoryManager = null;
+    private static DeploymentFactoryManager deploymentFactoryManager = new DeploymentFactoryManager();
     
     /** Creates new RIDeploymentFactoryManager */
     private DeploymentFactoryManager() {
@@ -94,9 +94,6 @@ public final class DeploymentFactoryManager {
      *
      */
     public static DeploymentFactoryManager getInstance() {
-        if(deploymentFactoryManager == null){
-            deploymentFactoryManager = new DeploymentFactoryManager();
-        }
         return deploymentFactoryManager;
     }
        
