@@ -79,31 +79,25 @@
     </developers>
 
     <organization>
-        <name>GlassFish Community</name>
-        <url>https://glassfish.java.net</url>
+        <name>Oracle Corporation</name>
+        <url>http://www.oracle.com/</url>
     </organization>
     <licenses>
         <license>
             <name>CDDL + GPLv2 with classpath exception</name>
-            <url>https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html</url>
+            <url>https://oss.oracle.com/licenses/CDDL+GPL-1.1</url>
             <distribution>repo</distribution>
             <comments>A business-friendly OSS license</comments>
         </license>
     </licenses>
     <issueManagement>
         <system>jira</system>
-        <url>http://java.net/jira/browse/GLASSFISH</url>
+        <url>https://github.com/javaee/glassfish/issues</url>
     </issueManagement>
-    <mailingLists>
-        <mailingList>
-            <name>GlassFish users</name>
-            <archive>users@glassfish.java.net</archive>
-        </mailingList>
-    </mailingLists>
     <scm>
-        <connection>scm:svn:https://svn.java.net/svn/glassfish~svn/trunk/api/javaee-api/javax.enterprise.deploy</connection>
-        <developerConnection>scm:svn:https://svn.java.net/svn/glassfish~svn/trunk/api/javaee-api/javax.enterprise.deploy</developerConnection>
-        <url>http://java.net/projects/glassfish/sources/svn/show/trunk/api/javaee-api/javax.enterprise.deploy</url>
+        <connection>scm:git:git://github.com/javaee/javax.enterprise.deploy.git</connection>
+        <developerConnection>scm:git:git@github.com:javaee/javax.enterprise.deploy.git</developerConnection>
+        <url>https://github.com/javaee/javax.enterprise.deploy</url>
     </scm>
 
     <build>
