@@ -95,7 +95,7 @@
         <url>https://github.com/javaee/glassfish/issues</url>
     </issueManagement>
     <scm>
-        <connection>scm:git:git://github.com/javaee/javax.enterprise.deploy.git</connection>
+        <connection>scm:git:https://github.com/javaee/javax.enterprise.deploy.git</connection>
         <developerConnection>scm:git:git@github.com:javaee/javax.enterprise.deploy.git</developerConnection>
         <url>https://github.com/javaee/javax.enterprise.deploy</url>
     </scm>
