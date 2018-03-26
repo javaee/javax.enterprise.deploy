@@ -51,7 +51,7 @@
 
     <groupId>javax.enterprise.deploy</groupId>
     <artifactId>javax.enterprise.deploy-api</artifactId>
-    <version>1.7</version>
+    <version>1.8-SNAPSHOT</version>
     
     <properties>
         <extension.name>javax.enterprise.deploy</extension.name>
@@ -98,7 +98,7 @@
         <connection>scm:git:https://github.com/javaee/javax.enterprise.deploy.git</connection>
         <developerConnection>scm:git:git@github.com:javaee/javax.enterprise.deploy.git</developerConnection>
         <url>https://github.com/javaee/javax.enterprise.deploy</url>
-      <tag>1.7</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <build>
